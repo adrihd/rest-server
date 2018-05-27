@@ -1,0 +1,44 @@
+{
+  "name": "@adrihd/rest-server",
+  "version": "0.0.1",
+  "description": "Express, Mongoose, MongoDB, JWT, REST api from the ground up...",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "adrihd",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "compress": "^0.99.0",
+    "compression": "^1.7.2",
+    "cors": "^2.8.4",
+    "dateformat": "^3.0.3",
+    "dotenv-safe": "^5.0.1",
+    "express": "^4.16.3",
+    "express-validation": "^1.0.2",
+    "helmet": "^3.12.1",
+    "http-status": "^1.1.2",
+    "joi": "^13.3.0",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.1.2",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-jwt": "^4.0.0",
+    "winston": "^2.4.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrihd/rest-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adrihd/rest-server/issues"
+  },
+  "homepage": "https://github.com/adrihd/rest-server#readme"
+}
